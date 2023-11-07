@@ -1,0 +1,5 @@
+pesos = int(input('What do you have left in pesos? '))
+soles = int(input('What do you have left in soles? '))
+reais = int(input('What do you have left in reais? '))
+USD = pesos*(3/12500) + soles*(13/50) + reais*(1/5) 
+print(USD)
